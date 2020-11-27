@@ -1,0 +1,63 @@
+/*my reset css*/
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Navbar */
+nav {
+    background: #37474F;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Buttons */
+.dropdown {
+    font-size: 18px;
+    color: white;
+    line-height: 50px;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+.dropbtn {
+    padding: 0 10px;
+}
+.dropbtn:after {
+    content:'\f0d7';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding: 0 10px;
+    color: color;
+}
+.dropbtn:hover {
+    background: dodgerblue;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background: dodgerblue;
+    width: 100vw;
+    z-index: 1;
+}
+.dropdown-content a {
+    height: 50px;
+    padding: 0 20px;
+    background: dodgerblue;
+    color: white;
+    line-height: 50px;
+}
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-content a:hover {
+    background: lightgray;
+    color: black;
+}
