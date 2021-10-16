@@ -1,5 +1,8 @@
 # Dropdown Menu
 
+**see the result here:**
+https://juliatarasow.github.io/UIB-interaction-dropdown-master/
+
 **Instructions**
 * Create a navigation bar at the top of the page with three items. 
 ![navbar-reference](/images/navbar.png)
